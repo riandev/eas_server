@@ -900,6 +900,7 @@ client.connect((err) => {
             consumerNumber: users[user][0].Consumer_No,
             territoryID: users[user][0].TERRITORY_ID,
             tmContactNo: users[user][0].TM_CONTACT_NO,
+            callDate1: users[user][0].callDate1,
             valid_Data_count: users[user].filter(
               (x) => x.Data_Status === "Valid_Data"
             ).length,
