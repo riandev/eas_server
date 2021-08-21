@@ -3153,9 +3153,9 @@ client.connect((err) => {
     }
   });
 
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../eas_client/build", "index.html"));
-  });
+  // app.get("*", (req, res) => {
+  //   res.sendFile(path.join(__dirname, "../eas_client/build", "index.html"));
+  // });
 });
 
 app.get("/", (req, res) => {
