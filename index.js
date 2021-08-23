@@ -15,9 +15,9 @@ const port = 5004;
 
 const MongoClient = require("mongodb").MongoClient;
 // const MongoClient = require("mongodb").MongoClient;
-const uri = "mongodb://127.0.0.1:27017/aktcl_eas";
-// const uri =
-//   "mongodb+srv://aktcl:01939773554op5t@cluster0.9akoo.mongodb.net/aktcl_cep?retryWrites=true&w=majority";
+// const uri = "mongodb://127.0.0.1:27017/aktcl_eas";
+const uri =
+  "mongodb+srv://aktcl:01939773554op5t@cluster0.9akoo.mongodb.net/aktcl_eas?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
